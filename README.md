@@ -1,4 +1,4 @@
-# Splunk Security Monitoring Lab
+# Splunk/Wazuh Log Aggregation & Security Monitoring Lab
 
 ## Project Overview
 This project documents the setup and configuration of a **Splunk Security Monitoring Lab** within my home lab environment. My home lab is hosted on my Dell PowerEdge R730XD which is running the Proxmox hypervisor as its OS. I was able to obtain a Splunk developer license to gain access to additional features as well as increased data capacity for storing logs within the Splunk Enterprise environment. 
