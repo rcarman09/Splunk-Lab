@@ -1,13 +1,13 @@
 # Splunk Security Monitoring Lab
 
-## 📌 Project Overview
+## Project Overview
 This project documents the setup and configuration of a **Splunk Security Monitoring Lab** within my home lab environment. My home lab is hosted on my Dell PowerEdge R730XD which is running the Proxmox hypervisor as its OS. I was able to obtain a Splunk developer license to gain access to additional features as well as increased data capacity for storing logs within the Splunk Enterprise environment. 
 
 I designed this lab with the intention of mimicking real-world scnearios involving security monitoring solutions such as **Splunk, Wazuh, Windows Event Logs, and pfSense**. My primary objective is to gain hands-on experience in **log collection, SIEM operations, dashboard visualization, and alerting**.
 
 ---
 
-## 🌐 Home Lab Network Overview
+## Home Lab Network Overview
 
 ### **Network Architecture**
 
@@ -31,7 +31,7 @@ I designed this lab with the intention of mimicking real-world scnearios involvi
 
 ---
 
-## 🏗️ Splunk Lab Architecture
+## Splunk Lab Architecture
 
 The **Splunk Lab** consists of:
 
@@ -44,7 +44,7 @@ The **Splunk Lab** consists of:
 
 ---
 
-## ⚙️ Step-by-Step Configurations
+## Step-by-Step Configurations
 
 ### **1️⃣ Splunk Enterprise Installation & Configuration**
 - Installed **Splunk Enterprise** on `10.10.10.10`.
@@ -81,7 +81,7 @@ The **Splunk Lab** consists of:
 
 ---
 
-## 📊 Custom Dashboards
+## Custom Dashboards
 
 ### **1️⃣ Domain Controller Dashboard**
 - **Failed Logon Attempts** (`EventCode=4625`)
@@ -106,7 +106,7 @@ The **Splunk Lab** consists of:
 
 ---
 
-## ⚠️ Alerts & Monitoring
+## Alerts & Monitoring
 
 ### **1️⃣ Brute Force Detection (Failed RDP Logins)**
 - Query:
@@ -125,7 +125,7 @@ The **Splunk Lab** consists of:
 
 ---
 
-## 🚀 Future Plans
+## Future Plans
 - Implement **Splunk Enterprise Security (ES)** for advanced correlation.
 - Automate responses using **SOAR**.
 - Integrate with **MITRE ATT&CK framework**.
